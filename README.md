@@ -33,5 +33,5 @@
 * `$ cmake ..`
 * `$ cmake --build .`
 * `$ ./main`
-* This will generate `nodes.dat`, elements.dat` and `boundary_nodes.dat`.
-* Note: to generate `nodes.dat`, elements.dat` and `boundary_nodes.dat`, delete these __FIRST__. But, __keep__ `annulus.msh`.
+* This will generate `nodes.dat`,`elements.dat` and `boundary_nodes.dat`.
+* Note: to generate `nodes.dat`, `elements.dat` and `boundary_nodes.dat`, delete these __FIRST__. But, __keep__ `annulus.msh`.
