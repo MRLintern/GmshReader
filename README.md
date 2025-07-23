@@ -1,11 +1,14 @@
 ## GmshReader
+---
 ### Introduction
+---
 * This application reads in a Mesh (`.msh`) file enabling a `C++` program to use the corresponding `geometry` in an appropriate data format.
 * This application has been developed with the `Finite Element Method` in mind.
 * The Geometry of the `.msh` file resembles an `annulus`. Such a shape could be used for modelling __Deep-Earth Geophysics Phenomenon__ in 2D.
 * Once `GmshReader` has read the `annulus.msh` file, we are left with essentially,`.dat` files which specifiy the problem domain.
 
 ### Requirements
+---
 * __Compiler__: `g++13.1.0`.
 * __OS__: `Ubuntu 20.04`.
 * `CMake`.
@@ -33,6 +36,7 @@
     * `boundary_nodes.dat` — Optional, depends on your mesh and tags
 
 ### Getting and Using the Software
+---
 * `$ git clone https://github.com/MRLintern/GmshReader`
 * `$ cd GmshReader`
 * `$ mkdir build -p && cd build`
@@ -41,3 +45,4 @@
 * `$ ./main`
 * This will generate `nodes.dat`,`elements.dat` and `boundary_nodes.dat`.
 * Note: to generate `nodes.dat`, `elements.dat` and `boundary_nodes.dat`, delete these __FIRST__. But, __keep__ `annulus.msh`.
+---
